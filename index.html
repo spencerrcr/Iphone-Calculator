@@ -9,35 +9,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="calcInterface" readonly>
+    <section id="calcInterface" >
         <div class="total">
-
+            0
         </div>
-        <div class="g1" id="one">1</div>
-        <div class="g1" id="two">2</div>
-        <div class="g1" id="three">3</div>
-        <div class="g1" id="four">4</div>
-        <div class="g1" id="five">5</div>
-        <div class="g1" id="six">6</div>
-        <div class="g1" id="seven">7</div>
-        <div class="g1" id="eight">8</div>
-        <div class="g1" id="nine">9</div>
-        <div class="g1" id="zero">0</div>
-        <div class="g1" id="decimal">.</div>
-        <div class="g1" id="clear">AC</div>
-        <div class="g1" id="plusMi">+/-</div>
-        <div class="g1" id="percent">%</div>
-        <div class="g1" id="divide">÷</div>
-        <div class="g1" id="multiply">X</div>
-        <div class="g1" id="minus">-</div>
-        <div class="g1" id="plus">+</div>
-        <div class="g1" id="equal">=</div>
-        
-
-
-
+        <div class="g1" id="one" data-value="1" data-action="number">1</div>
+        <div class="g1" id="two" data-value="2" data-action="number">2</div>
+        <div class="g1" id="three" data-value="3" data-action="number">3</div>
+        <div class="g1" id="four" data-value="4" data-action="number">4</div>
+        <div class="g1" id="five" data-value="5" data-action="number">5</div>
+        <div class="g1" id="six" data-value="6" data-action="number">6</div>
+        <div class="g1" id="seven" data-value="7" data-action="number">7</div>
+        <div class="g1" id="eight" data-value="8" data-action="number">8</div>
+        <div class="g1" id="nine" data-value="9" data-action="number">9</div>
+        <div class="g1" id="zero" data-value="0" data-action="number">0</div>
+        <div class="g1" id="decimal"  data-value="."   data-action="decimal">.</div>
+        <div class="g1" id="clear"  data-value="AC" data-action="clear">AC</div>
+        <div class="g1" id="plusMi" data-value="+/-" data-action="plusMinus">+/-</div>
+        <div class="g1" id="percent" data-value="%" data-action="percent">%</div>
+        <div class="g1" id="divide" data-value="/" data-action="operation">÷</div>
+        <div class="g1" id="multiply" data-value="*" data-action="operation">&times;</div>
+        <div class="g1" id="minus" data-value="-" data-action="operation">-</div>
+        <div class="g1" id="plus" data-value="+" data-action="operation">+</div>
+        <div class="g1" id="equal" data-value="equal" data-action="equals">=</div>
 
 
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
